@@ -1,7 +1,7 @@
 package com.wdm.test.stream.model;
 
 /**
- * Created by duanyong on 2017/7/20.
+ * Created by wdmyong on 2017/7/20.
  */
 public class Transaction {
 
