@@ -1,3 +1,6 @@
 test
 kill
 mod
+tail
+new tail 
+new git
