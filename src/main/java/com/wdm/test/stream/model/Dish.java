@@ -35,6 +35,15 @@ public class Dish {
 
     public enum Type { MEAT, FISH, OTHER }
 
+    public CaloricLevel getLevel() {
+        if (calories <= 400) {
+            return CaloricLevel.LOW;
+        } else if (calories <= 700) {
+            return CaloricLevel.MID;
+        }
+        return CaloricLevel.HIGH;
+    }
+
     @Override
     public String toString() {
         return "Dish{" +
